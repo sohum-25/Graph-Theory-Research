@@ -10,7 +10,7 @@ The study focuses on constructing portfolios based on stock correlations using g
 
 ## Portfolio Construction
 
-Graphs are constructed with stocks as nodes and correlations as edges. For the higher correlation portfolio, nodes with correlations above a threshold (0.46) are connected, and for the lower correlation portfolio, nodes with correlations above a threshold (0.33) are connected.
+Graphs are constructed with stocks as nodes and correlations as edges. For the higher correlation portfolio, nodes with correlations below a threshold (0.46) are connected, and for the lower correlation portfolio, nodes with correlations below a threshold (0.33) are connected.
 
 ## Portfolio Performance
 
